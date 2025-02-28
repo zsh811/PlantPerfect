@@ -11,6 +11,8 @@ The first version of PlantPerfect uses the Raspberry Pi Sensor Kit and a connect
 - Sensors for humidity, temperature, and light
 - A laptop for output display and data analysis
 
+![image](https://github.com/user-attachments/assets/f6e45d5e-1b0f-40af-a221-422022b97329)
+
 ### System Components:
 1. **Prototype Hardware**
    - Raspberry Pi microcontroller board (from the Raspberry Pi Sensor Kit)
@@ -24,6 +26,12 @@ The first version of PlantPerfect uses the Raspberry Pi Sensor Kit and a connect
      - Microcontroller and sensors
      - Batteries
    - OLED or similar display screen for data output
+  
+### Circuit
+
+![image](https://github.com/user-attachments/assets/897d3caf-32da-455f-a5e9-66c6c8aa5212)
+
+**_Note_:** The Wowki version uses DHT22 instead of DHT20 & a different LDR sensor pin.
 
 ## Implementation
 The device operates as follows:
@@ -60,6 +68,11 @@ PlantPerfect effectively monitors environmental conditions, providing valuable f
   - Measurements for pH levels, air quality, soil moisture, and gases.
 - **Enhanced Usability**
   - Mobile app or built-in displays for easy user interaction.
+ 
+## Simulation:
+Downloaded from https://wokwi.com/projects/424077850369591297
+
+Simulate this project on https://wokwi.com
 
 ---
 
