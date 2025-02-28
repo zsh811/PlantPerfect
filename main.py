@@ -22,15 +22,15 @@ while True:
     print("Humidity: {:.2f} %RH".format(humidity))
     print("Light Level:", light_level)
 
-    if temperature >= 20 and temperature <= 30:
-         if humidity >= 40 and humidity <= 60:
-             if light_level >= 1000:
-                        print("Area is suitable for planting.")
-             else:
-                        print("Insufficient light for planting.")
-         else:
-                    print("Humidity is not within the optimal range for planting.")
+    if 20 <= temperature <= 30:
+        if 40 <= humidity <= 60:
+            if light_level >= 1000:
+                print("Area is suitable for planting.")
+            else:
+                print("Insufficient light for planting.")
+        else:
+            print("Humidity is not within the optimal range for planting.")
     else:
-                print("Temperature is not within the optimal range for planting.")
-
+        print("Temperature is not within the optimal range for planting.")
+        
   sleep(1)
