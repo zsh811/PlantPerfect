@@ -15,17 +15,17 @@ The first version of PlantPerfect uses the Raspberry Pi Sensor Kit and a connect
 
 ### System Components:
 1. **Prototype Hardware**
-   - Raspberry Pi microcontroller board (from the Raspberry Pi Sensor Kit)
-   - Temperature and humidity sensor
-   - Light sensor
-   - Button for user interaction
-   - Computer for output display and power supply
+   - Raspberry Pi microcontroller board (from the Raspberry Pi Sensor Kit).
+   - Temperature and humidity sensor.
+   - Light sensor.
+   - Button for user interaction.
+   - Computer for output display and power supply.
 
 2. **Designed Device**
    - 3D-printed container (box) to house:
-     - Microcontroller and sensors
-     - Batteries
-   - OLED or similar display screen for data output
+     - Microcontroller and sensors.
+     - Batteries.
+   - OLED or similar display screen for data output.
   
 ### Circuit
 
